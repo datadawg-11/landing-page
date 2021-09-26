@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh
 
 }
 
@@ -23,7 +25,7 @@ body {
 .left-top {
     list-style-type: none;
     margin-right: auto;
-    flex:1;
+    /* flex:1; */
     padding-left: 0;
     
     
@@ -58,6 +60,14 @@ img {
     width: 100%;
 }
 
+#signUp {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10%;
+    padding: 3px 10px 3px 10px;
+    margin-top: 8px;
+}
+
 
 #text {
     font-size: 48px;
@@ -76,23 +86,44 @@ a {
     font-size: 18px;
 }
 
-
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 20px 100px;
+} 
 
 #section-two-text {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    padding-bottom: 50px;
 }
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex;
+    padding-bottom: 50px;
+}
+
 
 .section-three {
     background-color: #E5E7EB ;
+    padding: 50px 100px 50px 100px;
 }
 
-
+.section-four {
+    padding: 50px 100px 50px 100px;
+    /* flex-grow:1; */
+}
 .footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
     text-align: center;
+    margin-top: auto;
 }
+
+
